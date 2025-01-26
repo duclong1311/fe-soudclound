@@ -23,6 +23,7 @@ export default function MediaCard({ heading, text }: { heading: string; text: st
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {heading}
+          {/* this is comment demo */}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {text}
